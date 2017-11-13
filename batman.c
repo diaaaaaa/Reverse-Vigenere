@@ -56,7 +56,6 @@ FILE *cipher_file(void)
         printf("File does not exist.\n");
         return false;
     }
-    fclose(cipher_file);
     return cipher_file;
 }
 
